@@ -1,0 +1,24 @@
+Algoritmo de Organizacion 
+
++-----------------------+  +-----------------------+  +-----------------------+
+| POSICION 1            |  | POSICION 2            |  | POSICION 3            |
+|                       |  |                       |  |                       |
++-----------------------+  +-----------------------+  +-----------------------+
+
+Paso 1: ingrese los 3 numeros, cada uno en una posición
+
+Paso 2: Numerar las posiciones en orden ascendente
+
+Paso 3: posicion 1 <= posicion 2  
+        falso -> intercambiar de posicion
+        verdadero  -> mantener las posiciones
+        
+Paso 4: posicion 2 <= posicion 3
+        falso -> intercambiar de posicion
+        verdadero  -> mantener las posiciones
+
+Paso 5: posicion 1 <= posicion 2   -Repite paso 1
+        falso -> intercambiar de posicion
+        verdadero  -> mantener las posiciones
+
+Paso 6: Algoritmo organizado
